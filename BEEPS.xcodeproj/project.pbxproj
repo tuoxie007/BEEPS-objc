@@ -14,6 +14,11 @@
 		963AFE521A1FA0B30065622D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963AFE511A1FA0B30065622D /* Images.xcassets */; };
 		963AFE551A1FA0B30065622D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 963AFE531A1FA0B30065622D /* LaunchScreen.xib */; };
 		963AFE611A1FA0B30065622D /* BEEPSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 963AFE601A1FA0B30065622D /* BEEPSTests.m */; };
+		963AFE6B1A1FA0BC0065622D /* mopi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 963AFE6A1A1FA0BC0065622D /* mopi.jpg */; };
+		963AFE6E1A2034A20065622D /* ImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 963AFE6D1A2034A20065622D /* ImageHelper.m */; };
+		963AFE701A205EBB0065622D /* mopi2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 963AFE6F1A205EBB0065622D /* mopi2.jpg */; };
+		963AFE721A209E320065622D /* mopi3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 963AFE711A209E320065622D /* mopi3.jpg */; };
+		963AFE741A209E880065622D /* mopi4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 963AFE731A209E880065622D /* mopi4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,12 @@
 		963AFE5A1A1FA0B30065622D /* BEEPSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BEEPSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		963AFE5F1A1FA0B30065622D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		963AFE601A1FA0B30065622D /* BEEPSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEEPSTests.m; sourceTree = "<group>"; };
+		963AFE6A1A1FA0BC0065622D /* mopi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mopi.jpg; sourceTree = "<group>"; };
+		963AFE6C1A2034A20065622D /* ImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageHelper.h; sourceTree = "<group>"; };
+		963AFE6D1A2034A20065622D /* ImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageHelper.m; sourceTree = "<group>"; };
+		963AFE6F1A205EBB0065622D /* mopi2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mopi2.jpg; sourceTree = "<group>"; };
+		963AFE711A209E320065622D /* mopi3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mopi3.jpg; sourceTree = "<group>"; };
+		963AFE731A209E880065622D /* mopi4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mopi4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +92,12 @@
 		963AFE431A1FA0B30065622D /* BEEPS */ = {
 			isa = PBXGroup;
 			children = (
+				963AFE6C1A2034A20065622D /* ImageHelper.h */,
+				963AFE6D1A2034A20065622D /* ImageHelper.m */,
+				963AFE6A1A1FA0BC0065622D /* mopi.jpg */,
+				963AFE6F1A205EBB0065622D /* mopi2.jpg */,
+				963AFE711A209E320065622D /* mopi3.jpg */,
+				963AFE731A209E880065622D /* mopi4.jpg */,
 				963AFE481A1FA0B30065622D /* AppDelegate.h */,
 				963AFE491A1FA0B30065622D /* AppDelegate.m */,
 				963AFE4B1A1FA0B30065622D /* ViewController.h */,
@@ -199,8 +216,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				963AFE6B1A1FA0BC0065622D /* mopi.jpg in Resources */,
 				963AFE501A1FA0B30065622D /* Main.storyboard in Resources */,
+				963AFE721A209E320065622D /* mopi3.jpg in Resources */,
 				963AFE551A1FA0B30065622D /* LaunchScreen.xib in Resources */,
+				963AFE701A205EBB0065622D /* mopi2.jpg in Resources */,
+				963AFE741A209E880065622D /* mopi4.jpg in Resources */,
 				963AFE521A1FA0B30065622D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +243,7 @@
 				963AFE4D1A1FA0B30065622D /* ViewController.m in Sources */,
 				963AFE4A1A1FA0B30065622D /* AppDelegate.m in Sources */,
 				963AFE471A1FA0B30065622D /* main.m in Sources */,
+				963AFE6E1A2034A20065622D /* ImageHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
